@@ -1,6 +1,6 @@
 {
   description = "An empty template to customise";
-  inputs = { nixpkgs.url = "github:nixos/nixos-unstable"; };
+  inputs = { nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable"; };
   outputs = { self, nixpkgs }:
     let
       # The systems supported for this flake
