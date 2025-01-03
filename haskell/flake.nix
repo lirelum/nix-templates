@@ -16,11 +16,7 @@
     in {
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
-          packages = with pkgs; [ ];
-
-          env = { };
-
-          shelHook = "";
+          packages = with pkgs; [ cabal-install ghc haskell-language-server ];
         };
       });
     };

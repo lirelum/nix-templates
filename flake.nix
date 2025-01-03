@@ -7,6 +7,10 @@
         path = ./empty;
         descrption = "Empty basic template";
       };
+      haskell = {
+        path = ./haskell;
+        description = "Template for haskell";
+      };
     };
   };
 }
